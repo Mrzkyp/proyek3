@@ -1,19 +1,19 @@
+import 'package:diagnosa_proyek3/app/features/dashboard/views/components/Login.dart';
 import 'package:diagnosa_proyek3/app/features/dashboard/views/components/daftarpenyakit.dart';
-import 'package:diagnosa_proyek3/app/features/dashboard/views/components/register.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:get/get_core/src/get_main.dart';
 
 import '../screens/dashboard_screen.dart';
 
-class Login extends StatefulWidget {
-  const Login({super.key});
+class Register extends StatefulWidget {
+  const Register({super.key});
 
   @override
-  State<Login> createState() => _LoginState();
+  State<Register> createState() => _RegisterState();
 }
 
-class _LoginState extends State<Login> {
+class _RegisterState extends State<Register> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -63,6 +63,23 @@ class _LoginState extends State<Login> {
               height: 20,
             ),
             TextFormField(
+              decoration: InputDecoration(
+                border: OutlineInputBorder(),
+                focusedBorder: OutlineInputBorder(
+                  borderSide: BorderSide(color: Colors.black),
+                ),
+                prefixIcon: Icon(
+                  Icons.person,
+                  size: 40,
+                ),
+                hintText: "Email",
+                hintStyle: TextStyle(color: Colors.white),
+              ),
+            ),
+            SizedBox(
+              height: 20,
+            ),
+            TextFormField(
               obscureText: true,
               decoration: InputDecoration(
                 border: OutlineInputBorder(),
@@ -90,30 +107,11 @@ class _LoginState extends State<Login> {
                 child: InkWell(
                   splashColor: Colors.white,
                   onTap: () {
-                    Get.to(() => DashboardScreen());
+                    Get.to(() => Login());
                   },
                   child: Center(
-                      child: Text("Masuk",
+                      child: Text("Register",
                           style: TextStyle(fontSize: 20, color: Colors.white))),
-                ),
-              ),
-            ),
-            SizedBox(
-              height: 20,
-            ),
-            Card(
-              color: Colors.lightBlue,
-              elevation: 5,
-              child: Container(
-                height: 10,
-                child: InkWell(
-                  splashColor: Colors.white,
-                  onTap: () {
-                    Get.to(() => Register());
-                  },
-                  child: Center(
-                      child: Text("belum mempunyai aku? Register",
-                          style: TextStyle(fontSize: 7, color: Colors.white))),
                 ),
               ),
             ),

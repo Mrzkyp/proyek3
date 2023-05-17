@@ -39,7 +39,7 @@ class DashboardScreen extends GetView<DashboardController> {
 
   @override
   Widget build(BuildContext context) {
-    // Get.put(() => DashboardController());
+    Get.put(() => DashboardController());
     Get.lazyPut<DashboardController>(() => DashboardController());
 
     return Scaffold(
