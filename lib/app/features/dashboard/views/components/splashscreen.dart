@@ -1,6 +1,9 @@
 import 'dart:async';
 import 'package:diagnosa_proyek3/app/features/dashboard/views/components/Login.dart';
+<<<<<<< HEAD
 import 'package:diagnosa_proyek3/app/features/dashboard/views/screens/dashboard_screen.dart';
+=======
+>>>>>>> 74acfd7 (open camera)
 import 'package:flutter/material.dart';
 
 class SplashScreen extends StatefulWidget {

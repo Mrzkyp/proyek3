@@ -1,5 +1,10 @@
 // import 'dart:js';
 
+<<<<<<< HEAD
+=======
+// ignore_for_file: prefer_const_constructors_in_immutables
+
+>>>>>>> 74acfd7 (open camera)
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 // import 'package:get/get_core/src/get_main.dart';

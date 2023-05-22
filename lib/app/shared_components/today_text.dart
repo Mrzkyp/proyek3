@@ -13,7 +13,11 @@ class TodayText extends StatelessWidget {
         children: [
           Text(
             "Today",
+<<<<<<< HEAD
             style: Theme.of(context).textTheme.caption,
+=======
+            style: Theme.of(context).textTheme.bodySmall,
+>>>>>>> 74acfd7 (open camera)
           ),
           Text(
             DateFormat.yMMMEd().format(DateTime.now()),

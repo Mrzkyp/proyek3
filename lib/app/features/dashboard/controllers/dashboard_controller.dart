@@ -1,19 +1,41 @@
+<<<<<<< HEAD
+=======
+// ignore_for_file: prefer_const_constructors
+
+>>>>>>> 74acfd7 (open camera)
 part of dashboard;
 
 class DashboardController extends GetxController {
   final scaffoldKey = GlobalKey<ScaffoldState>();
 
+<<<<<<< HEAD
   static var key;
+=======
+  // static var key;
+>>>>>>> 74acfd7 (open camera)
 
   void openDrawer() {
     if (scaffoldKey.currentState != null) {
       scaffoldKey.currentState!.openDrawer();
     }
   }
+<<<<<<< HEAD
 
   List<TaskCardData> getAllTask() {
     return [
       const TaskCardData(
+=======
+_Profile getProfil() {
+    return const _Profile(
+      photo: AssetImage(ImageRasterPath.avatar1),
+      name: "Firgia",
+      email: "flutterwithgia@gmail.com",
+    );
+  }
+  List<TaskCardData> getAllTask() {
+    return [
+      TaskCardData(
+>>>>>>> 74acfd7 (open camera)
         title: "Daftar Penyakit",
         dueDay: 2,
         totalComments: 50,
@@ -26,7 +48,11 @@ class DashboardController extends GetxController {
           AssetImage(ImageRasterPath.avatar4),
         ],
       ),
+<<<<<<< HEAD
       const TaskCardData(
+=======
+      TaskCardData(
+>>>>>>> 74acfd7 (open camera)
         title: "Diagnosa",
         dueDay: -1,
         totalComments: 50,
@@ -39,7 +65,11 @@ class DashboardController extends GetxController {
           AssetImage(ImageRasterPath.avatar8),
         ],
       ),
+<<<<<<< HEAD
       const TaskCardData(
+=======
+      TaskCardData(
+>>>>>>> 74acfd7 (open camera)
         title: "Deteksi",
         dueDay: 1,
         totalComments: 50,
@@ -52,7 +82,11 @@ class DashboardController extends GetxController {
           AssetImage(ImageRasterPath.avatar2),
         ],
       ),
+<<<<<<< HEAD
       const TaskCardData(
+=======
+      TaskCardData(
+>>>>>>> 74acfd7 (open camera)
         title: "Temukan Dokter Terdekat",
         dueDay: 2,
         totalComments: 50,

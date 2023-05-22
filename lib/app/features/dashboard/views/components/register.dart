@@ -110,7 +110,11 @@ class _RegisterState extends State<Register> {
                     Get.to(() => Login());
                   },
                   child: Center(
+<<<<<<< HEAD
                       child: Text("Register",
+=======
+                      child: Text("Buat Akun",
+>>>>>>> 74acfd7 (open camera)
                           style: TextStyle(fontSize: 20, color: Colors.white))),
                 ),
               ),

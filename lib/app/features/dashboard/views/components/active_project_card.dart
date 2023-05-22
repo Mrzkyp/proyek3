@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+=======
+// ignore_for_file: unused_element
+
+>>>>>>> 74acfd7 (open camera)
 part of dashboard;
 
 class _ActiveProjectCard extends StatelessWidget {

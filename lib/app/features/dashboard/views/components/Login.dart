@@ -1,4 +1,9 @@
 import 'package:diagnosa_proyek3/app/features/dashboard/views/components/daftarpenyakit.dart';
+<<<<<<< HEAD
+=======
+import 'package:diagnosa_proyek3/app/features/dashboard/views/components/deteksi.dart';
+import 'package:diagnosa_proyek3/app/features/dashboard/views/components/diagnosa.dart';
+>>>>>>> 74acfd7 (open camera)
 import 'package:diagnosa_proyek3/app/features/dashboard/views/components/register.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
@@ -98,22 +103,34 @@ class _LoginState extends State<Login> {
                 ),
               ),
             ),
+<<<<<<< HEAD
             SizedBox(
               height: 20,
             ),
+=======
+>>>>>>> 74acfd7 (open camera)
             Card(
               color: Colors.lightBlue,
               elevation: 5,
               child: Container(
+<<<<<<< HEAD
                 height: 10,
+=======
+                height: 50,
+>>>>>>> 74acfd7 (open camera)
                 child: InkWell(
                   splashColor: Colors.white,
                   onTap: () {
                     Get.to(() => Register());
                   },
                   child: Center(
+<<<<<<< HEAD
                       child: Text("belum mempunyai aku? Register",
                           style: TextStyle(fontSize: 7, color: Colors.white))),
+=======
+                      child: Text("Register",
+                          style: TextStyle(fontSize: 20, color: Colors.white))),
+>>>>>>> 74acfd7 (open camera)
                 ),
               ),
             ),

@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+=======
+// ignore_for_file: prefer_const_constructors
+
+>>>>>>> 74acfd7 (open camera)
 part of dashboard;
 
 class _Sidebar extends StatelessWidget {
@@ -45,14 +50,26 @@ class _Sidebar extends StatelessWidget {
                   activeIcon: EvaIcons.calendar,
                   icon: EvaIcons.calendarOutline,
                   label: "Diagnosa",
+<<<<<<< HEAD
                   // onTap: () {
                   //   Get.to(() => Diagnosa());
                   // },
+=======
+                  onTap: () {
+                    Get.to(() => Diagnosa());
+                  },
+>>>>>>> 74acfd7 (open camera)
                 ),
                 SelectionButtonData(
                   activeIcon: EvaIcons.email,
                   icon: EvaIcons.emailOutline,
                   label: "Deteksi",
+<<<<<<< HEAD
+=======
+                  onTap: () {
+                    Get.to(() => Deteksi());
+                  },
+>>>>>>> 74acfd7 (open camera)
                   totalNotif: 20,
                 ),
                 SelectionButtonData(

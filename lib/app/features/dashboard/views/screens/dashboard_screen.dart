@@ -17,6 +17,10 @@ import 'package:get/get.dart';
 import 'package:flutter/foundation.dart' show kIsWeb;
 
 import '../components/daftarpenyakit.dart';
+<<<<<<< HEAD
+=======
+import '../components/deteksi.dart';
+>>>>>>> 74acfd7 (open camera)
 import '../components/diagnosa.dart';
 
 // binding
@@ -39,7 +43,11 @@ class DashboardScreen extends GetView<DashboardController> {
 
   @override
   Widget build(BuildContext context) {
+<<<<<<< HEAD
     Get.put(() => DashboardController());
+=======
+    // Get.put(() => DashboardController());
+>>>>>>> 74acfd7 (open camera)
     Get.lazyPut<DashboardController>(() => DashboardController());
 
     return Scaffold(
